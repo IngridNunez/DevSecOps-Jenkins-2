@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"   # cubre Pipfile y Pipfile.lock
+    directory: "/"
+    schedule:
+      interval: "weekly"
